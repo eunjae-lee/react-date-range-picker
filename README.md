@@ -18,6 +18,14 @@ npm install @eunjae-lee/react-instantsearch-widget-date-range-picker
 yarn add @eunjae-lee/react-instantsearch-widget-date-range-picker
 ```
 
+This widget uses [@duetds/date-picker](https://github.com/duetds/date-picker) under the hood. You need the following code at the end of your `<head>` tag:
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/duet.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@duetds/date-picker@1.4.0/dist/duet/themes/default.css" />
+```
+
 ## Widget
 
 ### Usage
